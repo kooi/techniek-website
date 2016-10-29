@@ -29,8 +29,10 @@
           <h1 class="w3-text-teal">Projecten</h1>
 
           <h2 class="w3-text-grey">Project #1: <a href="project1-website.html">Website</a></h2>
+          <a href="project1-website.html"><img src="img/html-icon.png" width='30%'></a>
 
           <h2 class="w3-text-grey">Project #2: <a href="project2-excel.html">Spreadsheet</a></h2>
+          <a href="project2-excel.html"><img src="img/spreadsheet-icon.png" width='30%'></a>
 
         </div>
       </div>
@@ -47,31 +49,7 @@
       </footer>
     -->
 
-
-    <script>
-    // Get the Sidenav
-    var mySidenav = document.getElementById("mySidenav");
-
-    // Get the DIV with overlay effect
-    var overlayBg = document.getElementById("myOverlay");
-
-    // Toggle between showing and hiding the sidenav, and add overlay effect
-    function w3_open() {
-        if (mySidenav.style.display === 'block') {
-            mySidenav.style.display = 'none';
-            overlayBg.style.display = "none";
-        } else {
-            mySidenav.style.display = 'block';
-            overlayBg.style.display = "block";
-        }
-    }
-
-    // Close the sidenav with the close button
-    function w3_close() {
-        mySidenav.style.display = "none";
-        overlayBg.style.display = "none";
-    }
-    </script>
+    <script src="js/ui.js"></script>
 
   </body>
 </html>
